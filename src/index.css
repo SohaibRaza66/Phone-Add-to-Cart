@@ -1,0 +1,92 @@
+.bar{
+  display: flex;
+  margin-top: 20px;
+}
+.bar span{
+  margin: auto 0;
+}
+.bar .btn{
+  margin: auto;
+}
+.bar .btn button{
+  margin: 0 30px;
+  width: 100px;
+  cursor: pointer;
+  background: linear-gradient(rgb(2, 193, 252), rgb(4, 103, 231));
+  border: none;
+}
+.bar .btn button:hover{
+  background: linear-gradient(rgb(4, 103, 231),rgb(2, 193, 252));
+}
+.phone .heading{
+  width: 100%;
+}
+.phone{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+.phone .card{
+  margin: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.phone .card .btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone .card .btn button{
+  padding: 14px 10px;
+  cursor: pointer;
+  background: rgb(41, 138, 250);
+  border: none;
+  border-radius: 10px;
+}
+.phone .card .btn button:hover{
+  background: rgb(70, 155, 253);
+}
+.card img{
+  width: 200px;
+  height: 200px;
+}
+*{
+  transition: 0.5s ease-in-out;
+}
+.data{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+.rem{
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.rem button{
+  width: 100%;
+  background-color: rgb(214, 70, 70);
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.rem button:hover{
+  background-color: rgb(211, 80, 80);
+}
+.total{
+  font-size: 30px;
+  font-weight: bolder;
+  margin: auto;
+  width: max-content;
+}

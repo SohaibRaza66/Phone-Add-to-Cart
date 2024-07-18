@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:monospace;
+  font-size: 1rem;
+}
+.Nav{
+  background: #000;
+  color: #fff;
+  display: flex;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.Nav .heading{
+  margin: auto 10px;
+}
+a{
+  color: #fff;
+}
+li{
+  position: relative;
+  list-style: none;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+#v::before{
+  content: attr(data-value);
+  width: max-content;
+  height: auto;
+  position: absolute;
+  padding: 0 5px;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color:rgba(255,255,255,0.5);
+}
+form{
+  margin: auto 0;
+}
+input{
+  padding: 15px;
+  border-radius: 10px;
+  width: 70%;
+}
+form button{
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(138, 0, 0);
+  outline: none;
+  color: #fff;
+  border: none;
+}
+form button:hover{
+  background-color: rgb(158, 2, 2);
+}
+.bar{
+  width: 100%;
+  background-color: brown;
+  color: #fff;
+}
+.bar .btn button{
+  padding: 10px;
+}
+@media only screen and (max-width:900px) {
+  .Nav{
+    display: grid;
+  }
+  h2{
+    text-align: center;
+  }
+}
+.Foot{
+  background: rgba(0,0,255,0.5);
+  display: flex;
+}
+.Foot .msg{
+  display: flex;
+  width: 100%;
+  padding: 15px 5px;
+}
+.Foot .msg div{
+  margin-left: auto;
+}
+.inc .btn{
+  padding: 5px 10px;
+  font-size: larger;
+  border: none;
+  border-radius: 100%;
+  background: rgba(12, 185, 12, 0.5);
+}
